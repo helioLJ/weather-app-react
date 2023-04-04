@@ -6,7 +6,7 @@ Uma aplicação para ver os detalhes do clima de qualquer cidade!
 
 ## Stack utilizada
 
-**Front-end:** ReactJS, TypeScript, CSS
+**Front-end:** ReactJS, TypeScript, CSS, WeatherAPI
 
 
 ## Funcionalidades
