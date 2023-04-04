@@ -1,0 +1,46 @@
+:root {
+  --black: #090F0E;
+  --white: #E0E3E3;
+
+  --green-800: #28413E;
+  --green-600: #4F6764;
+  --green-400: #718583;
+  --green-200: #9EA7A6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem Poppins, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  transition: filter 200ms;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}

@@ -1,0 +1,22 @@
+.weather-details {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(177, 173, 173, 0.7);
+  border-bottom: 1px solid rgba(177, 173, 173, 0.7);
+}
+
+.weather-details h3 {
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.weather-details .detail {
+  color: rgba(177, 173, 173, 0.7);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.weather-details .detail span {
+  color: var(--white);
+}

@@ -1,0 +1,35 @@
+.App-Container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "A A B";
+}
+
+.weather-content {
+  color: var(--white);
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  grid-area: A;
+  padding-inline: 1rem;
+}
+
+.weather-aside {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  grid-area: B;
+}
+
+@media (max-width: 900px) {
+  .App-Container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "B"
+    "A";
+  }
+  
+  .weather-aside {
+    padding: .5rem 1rem;
+  }
+}
