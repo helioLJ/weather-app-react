@@ -15,7 +15,7 @@ import Sleet from '../assets/granizo.jpg'
 import Thunder from '../assets/trovao.jpg'
 import Default from '../assets/default.jpg'
 
-const baseURL = 'http://api.weatherapi.com/v1/forecast.json?'
+const baseURL = 'https://api.weatherapi.com/v1/forecast.json?'
 const apiKey = 'ecefe37e943f4eb4b7a181451230404'
 
 interface WeatherInfoProps {
